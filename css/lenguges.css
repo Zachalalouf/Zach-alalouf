@@ -68,16 +68,8 @@
 
 @keyframes english {
     to {
-        width: 97%;
+        width: 87%;
     }
 }
 
-.line1.russian:after {
-    animation-name: russian;
-}
 
-@keyframes russian {
-    to {
-        width: 52%;
-    }
-}
