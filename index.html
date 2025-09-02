@@ -1,359 +1,284 @@
 <!DOCTYPE html>
-<html lang="hebrew">
-
+<html lang="en" dir="ltr">
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Zach Alalouf - CV</title>
-  <link rel="Tab icon" href="https://cdn0.iconfinder.com/data/icons/elasto-online-store/26/00-ELASTOFONT-STORE-READY_user-circle-512.png">
-
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
- 
-  <!--My Icons-->	
-  <link href="css\Icons.css" rel="stylesheet">
-  <!-- My SkillBar -->
-  <link href="css\skillBar.css" rel="stylesheet">
-  <!--My LengugesBar-->	
-  <link href="css\lenguges.css" rel="stylesheet"> 
-  <!--My Tooltip-->	
-  <link href="css\tooltip.css" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zach Alalouf · QA & Automation</title>
+  <meta name="description" content="QA tester and automation enthusiast. Manual & API testing, SQL, Selenium, and a strong product mindset from building affiliate funnels and digital assets." />
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    .chip { padding: .25rem .75rem; border-radius: 9999px; border: 1px solid rgb(229 231 235); font-size: .875rem; white-space: nowrap; }
+    .kbd { padding: .125rem .375rem; border-radius: .375rem; border: 1px solid rgb(209 213 219); background: #fff; font-size: .75rem; }
+  </style>
 </head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header / Nav -->
+  <header class="sticky top-0 z-40 backdrop-blur bg-white/70 border-b">
+    <div class="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
+      <a href="#home" class="font-extrabold tracking-tight text-lg">Zach Alalouf</a>
+      <nav class="hidden sm:flex gap-6 text-sm font-medium">
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#experience" class="hover:text-blue-600">Experience</a>
+        <a href="#projects" class="hover:text-blue-600">Projects</a>
+        <a href="#skills" class="hover:text-blue-600">Skills</a>
+        <a href="#education" class="hover:text-blue-600">Education</a>
+        <a href="#service" class="hover:text-blue-600">Military</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+      <a href="#contact" class="sm:hidden inline-flex items-center px-3 py-1.5 rounded-lg border bg-white">Contact</a>
+    </div>
+  </header>
 
-<body id="page-top">
+  <!-- Hero -->
+  <section id="home" class="relative overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 pt-16 pb-24 grid lg:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl sm:text-5xl font-extrabold leading-tight">QA Tester & Automation Enthusiast</h1>
+        <p class="mt-4 text-lg text-gray-700">Manual & API testing, SQL, and Selenium — paired with a product mindset from building affiliate funnels, landing pages, and digital assets across multiple channels.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#projects" class="px-4 py-2 rounded-lg bg-blue-600 text-white font-semibold shadow hover:bg-blue-700">See Projects</a>
+          <a href="#contact" class="px-4 py-2 rounded-lg border font-semibold hover:bg-gray-100">Get in touch</a>
+          <a href="./Zach_Alalouf_CV.pdf" class="px-4 py-2 rounded-lg border font-semibold hover:bg-gray-100" download>Download CV (PDF)</a>
+        </div>
+        <div class="mt-6 text-sm text-gray-600">Bat Yam · <a href="tel:+972504552070" class="underline">050-4552070</a> · <a class="underline" href="mailto:zachalalouf1992@gmail.com">zachalalouf1992@gmail.com</a></div>
+      </div>
+      <div class="lg:justify-self-end">
+        <div class="relative w-full aspect-[4/3] rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-100 border shadow-inner grid place-items-center">
+          <div class="text-center p-6">
+            <div class="text-7xl">🧪</div>
+            <p class="mt-2 font-semibold">ISTQB | API | SQL | Selenium</p>
+            <p class="text-sm text-gray-600">Manually thorough. Automatically curious.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Zach Alalouf</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img\profile.png" alt="picture of me">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
+  <!-- About -->
+  <section id="about" class="py-12 border-t bg-white">
+    <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-3 gap-10">
+      <div class="lg:col-span-2">
+        <h2 class="text-2xl font-bold">About</h2>
+        <p class="mt-3 text-gray-700">
+          I'm Zach, a QA tester with hands-on experience across web and desktop applications. I translate business and technical requirements into clear test plans and reliable releases.
+        </p>
+        <p class="mt-3 text-gray-700">
+          Alongside QA, I build <strong>affiliate marketing</strong> funnels, <strong>landing pages</strong>, and <strong>digital assets</strong> across different channels and audiences. This gives me a strong product sense: I think about conversion paths, instrumentation, A/B testing, and real user behavior — which directly improves my QA work (better edge-case coverage, data validation, and analytics-aware testing).
+        </p>
+      </div>
+      <aside class="space-y-2 text-sm">
+        <div class="font-semibold">Highlights</div>
+        <ul class="list-disc pl-5 text-gray-700 space-y-1">
+          <li>UI/UX, Functional, E2E, Regression, Sanity</li>
+          <li>Agile & Waterfall workflows</li>
+          <li>SQL for data setup & validation</li>
+          <li>REST API & ESB testing</li>
+          <li>Conversion tracking & basic SEO</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
 
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+  <!-- Experience -->
+  <section id="experience" class="py-16 bg-gray-50 border-t">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold">Experience</h2>
+      <ol class="mt-8 relative border-s">
+        <li class="ms-6 mb-10">
+          <div class="absolute w-3 h-3 bg-blue-600 rounded-full -start-1.5 top-2"></div>
+          <div class="flex flex-wrap items-center gap-3">
+            <h3 class="font-semibold">Manual QA Tester</h3>
+            <span class="text-xs px-2 py-1 rounded bg-blue-50 text-blue-700 border border-blue-200">2021 – Present</span>
+          </div>
+          <p class="mt-2 text-gray-700">Projects across desktop & web. Test planning and execution with strong documentation.</p>
+          <ul class="mt-3 grid sm:grid-cols-2 gap-x-8 list-disc pl-5 text-gray-700">
+            <li>Author STP, STD, STR from PRD/BRD requirements</li>
+            <li>Design & run UI/UX, E2E, Regression, Sanity suites</li>
+            <li>Write SQL queries for test data & validation</li>
+            <li>Verify REST API & ESB flows (status, payload, contracts)</li>
+            <li>Collaborate with devs & product to tighten feedback loops</li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 bg-white border-t">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex items-end justify-between gap-4">
+        <h2 class="text-2xl font-bold">Projects</h2>
+        <a href="https://github.com/zachalalouf" target="_blank" class="text-sm underline">More on GitHub</a>
+      </div>
+
+      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <article class="border rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-md transition">
+          <div class="p-5">
+            <h3 class="font-semibold">API Testing Toolkit</h3>
+            <p class="mt-2 text-sm text-gray-700">Postman collections & scripts for REST validation: auth flows, negative cases, and data integrity checks.</p>
+            <div class="mt-3 flex flex-wrap gap-2">
+              <span class="chip">Postman</span>
+              <span class="chip">REST</span>
+              <span class="chip">Auth</span>
+            </div>
+          </div>
+        </article>
+        <!-- Card 2 -->
+        <article class="border rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-md transition">
+          <div class="p-5">
+            <h3 class="font-semibold">Selenium UI Tests</h3>
+            <p class="mt-2 text-sm text-gray-700">Demo webshop suite: smoke, regression, cross-browser checks, and robust assertions.</p>
+            <div class="mt-3 flex flex-wrap gap-2">
+              <span class="chip">Selenium</span>
+              <span class="chip">Java</span>
+              <span class="chip">UI</span>
+            </div>
+          </div>
+        </article>
+        <!-- Card 3 -->
+        <article class="border rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-md transition">
+          <div class="p-5">
+            <h3 class="font-semibold">Affiliate Landing Experiments</h3>
+            <p class="mt-2 text-sm text-gray-700">A/B tests for landing pages and funnels; tracking events and analyzing conversion impact.</p>
+            <div class="mt-3 flex flex-wrap gap-2">
+              <span class="chip">A/B Testing</span>
+              <span class="chip">Analytics</span>
+              <span class="chip">CRO</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <p class="mt-6 text-sm text-gray-600">Tip: link each card to a GitHub repo or live demo. Replace placeholders with your actual projects.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-16 bg-gray-50 border-t">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold">Skills</h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="font-semibold">Core</h3>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <span class="chip">Manual Testing</span>
+            <span class="chip">Test Planning</span>
+            <span class="chip">API Testing</span>
+            <span class="chip">UI/UX</span>
+            <span class="chip">E2E</span>
+            <span class="chip">Regression</span>
+            <span class="chip">Defect Management</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-semibold">Tools & Tech</h3>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <span class="chip">SQL</span>
+            <span class="chip">Postman</span>
+            <span class="chip">Selenium</span>
+            <span class="chip">Java</span>
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">Git</span>
+            <span class="chip">Landing Pages</span>
+            <span class="chip">Affiliate Marketing</span>
+            <span class="chip">Analytics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="py-16 bg-white border-t">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold">Education & Certifications</h2>
+      <ul class="mt-6 space-y-6">
+        <li>
+          <div class="font-semibold">ISTQB Foundation</div>
+          <div class="text-sm text-gray-600">2021</div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills" >Skills</a>
+        <li>
+          <div class="font-semibold">Automation Course – automation.co.il (Gal Matalon)</div>
+          <div class="text-sm text-gray-600">2021</div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        <li>
+          <div class="font-semibold">SQL Course – automation.co.il</div>
+          <div class="text-sm text-gray-600">2021</div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#militrayService">Military Service</a>
+        <li>
+          <div class="font-semibold">Android App Development – John Bryce</div>
+          <div class="text-sm text-gray-600">2017–2018</div>
         </li>
-        <li class="nav-item">
-      
-        <!-- </li> -->
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#languages">LANGUAGES</a>
+        <li>
+          <div class="font-semibold">Computer & Communication Networks – John Bryce</div>
+          <div class="text-sm text-gray-600">2015–2016</div>
         </li>
       </ul>
     </div>
-  </nav>
+  </section>
 
-  <div class="container-fluid p-0">
+  <!-- Military Service -->
+  <section id="service" class="py-16 bg-gray-50 border-t">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold">Military Service</h2>
+      <p class="mt-2 text-gray-700"><span class="font-semibold">Air Defense – Iron Dome</span> · Interceptor (2011–2014)</p>
+      <p class="text-sm text-gray-600 mt-1">Proudly served in Israel's Iron Dome system.</p>
+    </div>
+  </section>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        
-        <h1 class="mb-0">Zach
-          <span class="text-primary">Alalouf</span>
-        </h1>
-        <div class="subheading mb-5">Bat-Yam · 050-4552070 ·
-          <a href="mailto:zachalalouf1992@gmail.com">zachalalouf1992@gmail.com</a>
-        </div>
-        <p>
-            My Name is Zach Alalouf , I'm 28 Years old , live in Bat-Yam. 
-           <br> i Has run 2 stores on eBay for over 4 years In the dropshipping method.<br>
-                <b>eBay dropshipping</b> is a shipping and fulfillment model where the eBay seller never actually owns or physically handles inventory, 
-            but instead has products shipped directly from the manufacturer to customers once an order has been placed. Inventory is produced, stored, and shipped by the supplier or manufacturer.
-            <br>Also im <b>dropshipping Mentor</b> I have students and I try to teach them all the secrets of the profession, Until success .<br>
-            <br>Over the years I have studied and experimented in a number of technological fields, But I did not apply it as a profession, And this is my dream, to enter the high-tech world.<br>
-            <br>I gained experience with manual testing on web and desktop applications both on client and server sides. I can describe myself as autodidact, Highly independent, passionate, with high motivation always to learn as much as possible and develop my skills. Have Very high work ethic and loves to delve and explore.<br>
-        </p>
-        
-        <p class="lead mb-5">
-		</p>
-		
-
-     
-		  
-		  
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-white border-t">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold">Contact</h2>
+      <div class="mt-6 grid lg:grid-cols-2 gap-8">
+        <form name="contact" method="POST" data-netlify="true" class="space-y-4 p-6 border rounded-2xl">
+          <input type="hidden" name="form-name" value="contact">
+          <div>
+            <label class="block text-sm font-medium">Name</label>
+            <input name="name" required class="mt-1 w-full rounded-lg border px-3 py-2" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">Email</label>
+            <input type="email" name="email" required class="mt-1 w-full rounded-lg border px-3 py-2" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">Message</label>
+            <textarea name="message" rows="4" required class="mt-1 w-full rounded-lg border px-3 py-2"></textarea>
+          </div>
+          <button class="px-4 py-2 rounded-lg bg-blue-600 text-white font-semibold">Send</button>
+        </form>
+        <div class="p-6 border rounded-2xl">
+          <p class="text-gray-700">Prefer email or phone?</p>
+          <p class="mt-2"><a class="underline" href="mailto:zachalalouf1992@gmail.com">zachalalouf1992@gmail.com</a></p>
+          <p class="mt-1"><a class="underline" href="tel:+972504552070">+972 50-455-2070</a></p>
+          <div class="mt-4 flex gap-3 text-sm">
+            <a class="underline" target="_blank" href="https://github.com/zachalalouf">GitHub</a>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Manual QA Tester</h3>
-            <p>Working on projects, performing manaul testing on desktop programs and web applications.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2021 - Current</span>
-          </div>
-        </div>
-		<div class="subheading mb-3">My Responsibilities</div>
-		<ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fas fa-check-square"></i>
-				Working with STP, STD, STR</li>
-		  
-		  <li>
-            <i class="fa-li fas fa-check-square"></i>
-				Analyzing business, functional, and technical requirements from <abbr title="Produact requirements document">PRD</abbr>.</li>
-				
-		  <li>
-            <i class="fa-li fas fa-check-square"></i>
-				Great knowledge of QA methodologies including plan, design, execution and reporting.</li>	
-          
-          <li>
-            <i class="fa-li fas fa-check-square"></i>
-      		    Writing queryies using SQL to update and validate database records. </li>
-			  
-		  <li>
-            <i class="fa-li fas fa-check-square"></i>
-				Rest API testing.</li>	
-			
-		  <li>
-            <i class="fa-li fas fa-check-square"></i>
-				ESB services testing.</li>
-				
-		  <li>
-            <i class="fa-li fas fa-check-square"></i>
-				Executing UI/UX, Functional, E2E, Regression and Sanity testing </li>
-
-			<li>
-            <i class="fa-li fas fa-check-square"></i>
-				Working with Agile / Waterfall methodologies </li>			
-			
-        </ul>
-
+  <!-- Footer -->
+  <footer class="py-10 border-t bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 text-sm text-gray-600 flex flex-wrap items-center justify-between gap-4">
+      <div>© <span id="y"></span> Zach Alalouf</div>
+      <div class="flex items-center gap-3">
+        <a href="#home" class="underline">Back to top</a>
       </div>
+    </div>
+  </footer>
 
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-		  <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Computer and communication network technician</h3>
-            <div class="subheading mb-3">John Bryce</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2015-2016</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Programming applications in Android environment</h3>
-            <div class="subheading mb-3">John Bryce</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2017-2018</span>
-          </div>
-        </div>
-
-		<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Automation Course</h3>
-            <div class="subheading mb-3">automation.co.il / Gal Matalon</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2021</span>
-          </div>
-        </div>
-		
-		<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">ISTQB course</h3>
-            <div class="subheading mb-3">Qualitest facility</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2021</span>
-          </div>
-        </div>
-
-      
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">SQL course</h3>
-            <div class="subheading mb-3">automation.co.il / Gal Matalon</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2021</span>
-          </div>
-        </div>
-
-		
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-	
-      <div class="w-100">
-        <h2 class="mb-3">Skills</h2>
-		
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-                <img class="icon-html" src="icons\html-5.svg" alt="html-icon" title="HTML5">
-          </li>
-          <li class="list-inline-item">
-				<img class="icon-css" src="icons\css3.svg" alt="css-icon" title="CSS">
-          </li>
-          <li class="list-inline-item">
-				<img class="icon-java" src="icons\java2.svg" alt="java-icon" title="JAVA">
-		  </li>	
-		  <li class="list-inline-item">
-				<img class="icon-selenium" src="icons\selenium.svg" alt="selenium-icon" title="SELENIUM">
-		  </li>
-			<li class="list-inline-item">
-			    <img class="icon-postman" src="icons\postman.svg" alt="postman-icon" title="POSTMAN">
-			</li>	
-		  <li class="list-inline-item">
-			    <img class="icon-jira" src="icons\jira.svg" alt="jira-icon" title="JIRA">
-			</li>
-          <li class="list-inline-item">
-			    <img class="icon-qc" src="icons\hp-1.svg" alt="alm-qc-icon" title="ALM-QC">
-			</li>
-		  <li class="list-inline-item">
-			    <img class="icon-fiddler" src="icons\Fiddler.png" alt="Fiddler-icon" title="Telerek FIDDLER">
-			</li> 	
-		
-        </ul>
-		
-		<div class="subheading mb-3">Skills Bars</div>
-			<div>WORK INDEPENDENTLY AS WELL WITH TEAM</div>	
-				<div class="container subheading mb-3 line work-style">100%</div>	 
-			<div>SQL QUERYIES</div>
-				<div class="container subheading mb-3 line sql">80%</div> 
-			<div>HTML</div>	
-				<div class="container subheading mb-3 line html">75%</div>
-			<div>CSS</div>	
-				<div class="container subheading mb-3 line css">45%</div>						
-			<div>JAVA</div>	
-				<div class="container subheading mb-3 line java">50%</div>
-			<div>SELENIUM</div>	
-				<div class="container subheading mb-3 line selenium">70%</div>			
-			<div>NETWORKING</div>	
-				<div class="container subheading mb-3 line networking">30%</div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p class="mb-0">Apart from being a QA tester, I'm a huge sport's fan.
-			<br>
-			My biggest passion is for SOCCER. I've been playing SOCCER since I was 6 years old.
-			<br>
-			My hobbies is to go to the beach and play matkot , Also i love going to Bloomfield Stadium 
-      to Watch my favorite team Hapoel Tal-Aviv.
-		</p>
-        <p class="mb-0">On my free time I like to explore new technologies regarding the QA world to try to expand my knowledge. </p>
-		<p class="mb-0">Also I enjoy spending time listening to music. my favorite genre is rap/hip-hop/trance.</p>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    
-    <section  class="resume-section p-3 p-lg-5 d-flex align-items-center" id="militrayService">
-      <div class="w-100">
-        <h2 class="mb-5">Military Service</h2>
-		<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Air Defense - Iron Dome system</h3>
-            <div class="subheading mb-3">Interceptor in Iron Dome system</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">august 2011 - september 2014</span>
-          </div>
-        </div>
-
-
-        <img class="photo" src="img/irondome.jpg" alt="iron dome" style="height: 300px;
-        width: 300px;">
-
-        <img class="photoone" src="img/solider.jpg" alt="iron dome" style="height: 300px;
-        width: 300px;">
-
-        <img class="phototwos" src="img/soliderone.PNG" alt="iron dome" style="height: 300px;
-        width: 300px;">
-
-      </div>
-    </section>
-	
-	<hr class="m-0">
-		
- 
-
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="languages">
-      <div class="w-100">
-          <h2 class="mb-5">LANGUAGES</h2>
-		
-			<div>HEBREW</div>	
-				<div class="container1 subheading mb-3 line1 hebrew">100%</div>
-			<div>ENGLISH</div>
-				<div class="container1 subheading mb-3 line1 english">85%</div> 
-    </section>
-	
-
-		
-	  
-
-  </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
-
 </html>
